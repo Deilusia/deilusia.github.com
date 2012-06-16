@@ -1,0 +1,29 @@
+body {
+    background: #195590;
+    color:#FFF;
+    font-family: 'Pontano Sans', sans-serif;
+    margin:0px;
+}
+header {
+    position: fixed;
+    top: 0;
+    height: 50px;
+    background: #F96E5B;
+    z-index: 999;
+    color:white;
+    width:100%;
+}
+header h3 { 
+    float: right;
+    font-size: 10px;
+    padding-right: 10px;
+}
+header h3 a, header h3 a:hover { color:white; text-decoration:none; }
+header h2 { text-align: center; margin: 10px 0 0; }
+#content {
+    width: 90%;
+    top: 80px;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+}
