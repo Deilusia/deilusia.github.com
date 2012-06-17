@@ -1,24 +1,30 @@
 body {
-    background: #195590;
     color:#FFF;
     font-family: 'Pontano Sans', sans-serif;
     margin:0px;
+	background:url("../images/back3.png") fixed no-repeat 1px 26px;
 }
-header {
+header, #title  {
     position: fixed;
     top: 0;
-    height: 50px;
-    background: #F96E5B;
+    height: 29px;
+    background: #00396e;
     z-index: 999;
     color:white;
     width:100%;
 }
-header h3 { 
+footer {
+	height: 37px;
+	background: #00396e;
+	position: relative;
+	margin-top: 45px;
+}
+header h3, footer h3 { 
     float: right;
     font-size: 10px;
     padding-right: 10px;
 }
-header h3 a, header h3 a:hover { color:white; text-decoration:none; }
+header h3 a, header h3 a:hover, footer h3 a:hover, footer h3 a { color:white; text-decoration:none; }
 header h2 { text-align: center; margin: 10px 0 0; }
 #content {
     width: 90%;
@@ -26,4 +32,32 @@ header h2 { text-align: center; margin: 10px 0 0; }
     position: relative;
     margin: 0 auto;
     text-align: center;
+	color:black;
+	min-height:800px;
+}
+#title {
+	-webkit-box-shadow: 0px 0px 10px 
+	rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0px 0px 10px rgba(0,0,0,.8);
+	box-shadow: 0px 0px 10px 
+	rgba(0, 0, 0, .8);
+	top: 29px;
+	height: 151px;
+	text-align: center;
+	position: relative;
+	z-index: -1;
+}
+#logo {
+    width: 250px;
+    background: url("../images/back2.png") fixed no-repeat 0px 28px;
+    height: 150px;
+    z-index: 9999;
+    float: left;
+}
+#title h2 {
+    top: 45px;
+    z-index: 99999;
+    position: fixed;
+    font-size: 26px;
+    width: 100%;
 }
