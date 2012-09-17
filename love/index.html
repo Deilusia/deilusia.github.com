@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>I love You</title>
+  	<meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <!--[if gte IE 9]>
+    <style type="text/css">
+      .gradient { filter: none; }
+      </style>
+    <![endif]-->
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script>
+     $(document).ready(function() {
+      $('div#content').mouseover(function(){
+        $('.heart').html("&hearts;");
+      }).mouseout(function(){
+        $('.heart').html("&#63743;");
+      });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="content">
+		  <span class="label">I </span><span class="heart">&#63743;</span><span class="label"> ISAAC</span>
+    </div>
+  </body>
+</html>
