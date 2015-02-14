@@ -52,7 +52,7 @@ body {
 	@-moz-document url-prefix() { .label { text-shadow: #fff 0 0 20px; } } 
 	
 #content:hover .label {
-	text-shadow: #06F 0 0 5px;
+	text-shadow: #06F 0 0 0;
 	-webkit-transition: text-shadow 2s cubic-bezier(0, 0.95, 0, 1);
 	-moz-transition: 	text-shadow 2s cubic-bezier(0, 0.95, 0, 1);
 	-ms-transition: 	text-shadow 2s cubic-bezier(0, 0.95, 0, 1);
